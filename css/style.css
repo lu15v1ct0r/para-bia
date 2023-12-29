@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: pink;
+}
+
+a {
+    color: white;
+}
+
+#menu div {
+    font-size: 150%;
+    background-color: rgb(253, 136, 156);
+    margin: 0 0 6% 0;
+    padding: 0;
+}
+
+li>a {
+    text-decoration: none;
+    padding: 4.7% 3.5% 0% 3.5%;
+    transition: background .6s;
+}
+
+
+#menu div ul li {
+    background-color: rgb(253, 136, 156);
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding: 0;
+}
+
+#menu div ul li a:hover {
+    background-color: rgb(255, 113, 137);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: white;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(255, 113, 137);
+    font-size: 25px;
+    border: 0px;
+    border-radius: 15%;
+}
+#naobtn {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}

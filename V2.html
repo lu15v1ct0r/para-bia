@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>casa comigo?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="menu">
+        <div>
+            <ul><li><a href="index.html">Versão 1</a></li><li><a href="V2.html"> Versão 2 </a></li><li><a href="V3.html"> Versão 3 </a></li>
+        </div>
+    </nav>
+    <p style="text-align: center;" id="pergunta">Casa comigo?</p>
+    <img src="imgs/anel.gif" alt="anel" id="imagem">
+    <div id="botões">
+    <button onclick="sim()" style="margin-left: 37%;">SIM</button>
+    <button onclick="sumir()" id="nao">NÃO</button>
+    </div>
+    <script>
+        function sim(){
+            document.getElementById("pergunta").innerHTML = "Obrigado meu amor eu te amo demais S2 e eu vou ser muito feliz casado com vc";
+            document.getElementById("imagem").src = "imgs/coração.gif";
+            const botao = document.getElementById("botões")
+            botao.style.display = "none";
+        }
+        function sumir(){
+            document.getElementById("nao").remove();
+        }
+    </script>
+</body>
+</html>

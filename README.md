@@ -1,2 +1,2 @@
 # para-bia
-https://github.com/lu15v1ct0r/para-bia.git
+https://lu15v1ct0r.github.io/para-bia/
